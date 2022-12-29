@@ -13,9 +13,9 @@
         Pink: hsl(356, 66%, 75%)
         Teal: hsl(174, 63%, 62%)
   */
-  --first-hue: 207;
-  --sat: 90%;
-  --lig: 72%;
+  --first-hue: 65;
+  --sat: 80%;
+  --lig: 70%;
   --second-hue: 219;
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--first-hue), var(--sat), 68%); /* -4% */
@@ -364,7 +364,7 @@ body.light-theme{
              hsla(var(--first-hue), var(--sat), var(--lig), 1),
              hsla(var(--first-hue), var(--sat), var(--lig), .2)
   );
-  border-radius: 10rem 10rem 1rem 1rem;
+  border-radius: 3rem 3rem 3rem 3rem;
   display: flex;
   align-items: flex-end;
   justify-content: center;
